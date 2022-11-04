@@ -1,17 +1,15 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View, TouchableWithoutFeedback, Keyboard } from "react-native";
+import { StyleSheet, View} from "react-native";
 import Title from "./src/components/Title";
 import Main from "./src/components/Main";
 
 
 export default function App() {
   return (
-    <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+
       <View style={styles.container}>
-        <Title />
-        <Main />
+        <Title/>
+        <Main/>
       </View>
-    </TouchableWithoutFeedback>
   );
 }
 
