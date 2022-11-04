@@ -15,7 +15,7 @@ formContext: {
 },
 form: {
     width: "100%", 
-    height: "auto", 
+    height: "100%", 
     marginTop: 30,
     padding: 10,
 
@@ -54,6 +54,25 @@ form: {
    color: "red",
    fontWeight: "bold",
    paddingLeft: 20 
+ },
+ showResult: {
+   width: "100%",
+   height: "50%"
+ },
+ ListImcs: {
+   marginTop: 20,  
+ },
+ resultImcItem: {
+   fontSize: 26,
+   color: "red",
+   height: 50, 
+   width: "100%",
+   paddingRight: 20,
+ },
+ textResultItemList: {
+fontSize: 16,
+
+
  }
 })
 
