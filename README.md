@@ -1,3 +1,3 @@
-# onebithealth
+#   OneBitHealth
 
-IMC calculator built with React Native
+A simple IMC calculator built with React Native
